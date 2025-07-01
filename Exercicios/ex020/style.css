@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+.primeiro {background-color: lightgrey;}
+.segundo {background-color: lightgreen;}
+.terceiro {background-color: lightskyblue;}
+div{ 
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+div:hover {
+    background-color: blue;
+}
+
+.primeiro:hover {background-color: pink;}

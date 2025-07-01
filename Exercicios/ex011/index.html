@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="igor.favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios depositivos diferentes ou simplesmente aumente e diminuar o tamanho do navegador</p>
+    
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+    <img src="imagens/imagem-g.png" alt="imagem alternativa">
+  </picture>
+
+
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+    <img src="imagens/imagem-g.png" alt="">
+  </picture>
+  <ul>
+    <li><button><a href="URL" target="_blank" rel="external">Igor</a></button></li>
+  </ul>
+
+  <h1>Vamos aprender a coloca audio</h1>
+  <p>Aqui  temos uma musica livre para usar em sites</p>
+ <audio preload="metadata" controls loop>
+  <source src="midia/Como Vamos_ - Casa Rosa.mp3" type="audio/mpeg">
+
+ </audio>
+  <audio preload="metadata" controls loop>
+    <source src="midia/comovamos.mp3" type="audio/mpeg">
+  </audio>
+  <p>Se não conseguir abrir o audio tente por aqui <button type="button"><a href="midia/comovamos.mp3" download="comovamos.mp3" type="application/mp3">musica</a></button></p>
+  
+</body>
+</html>
