@@ -14,7 +14,8 @@ td, th {
 }
 
 td {
-    
+    align-items: center;
+
 }
 
 thead, tfoot {
