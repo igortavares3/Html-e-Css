@@ -7,6 +7,13 @@ table {
     
 }
 
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: gray;
+    padding: 10px;
+}
+
 td, th {
     border: 1px solid black;
     padding: 10px 0px 10px 0px;
@@ -15,6 +22,11 @@ td, th {
 
 td {
     align-items: center;
+
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
 
 }
 
