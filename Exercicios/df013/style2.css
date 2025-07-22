@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+table {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    
+    
+}
