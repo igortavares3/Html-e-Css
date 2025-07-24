@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+table {
+    width: 500px;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+#overflow {
+    overflow-x: auto;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
