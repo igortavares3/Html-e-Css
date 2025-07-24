@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+table {
+    width: 500px;
+    border-collapse:collapse;
+    font-size: 1.2em;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.cnome {
+    background-color: rgba(0, 0, 255, 0.525);
+}
