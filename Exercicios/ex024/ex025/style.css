@@ -37,6 +37,9 @@
     .botao:hover {
         color: black;
         transition: color 2s;
+        border-radius: 50%;
+        transition: border-radius 0.9s;
+        
         
     }
 
@@ -45,9 +48,11 @@
 
 #border {
     border: 1px solid black;
+    border-radius: 5px;
+    
     padding: 20px;
     height: 300px;
     width: 300px;
-    background-image: linear-gradient(to top, red, blue);
+    background-image: linear-gradient(to top, gray, rgba(0, 0, 0, 0.616));
 
 }
