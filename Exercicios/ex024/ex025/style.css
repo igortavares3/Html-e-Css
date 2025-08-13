@@ -9,6 +9,45 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 10px;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+    #teste  h1 {
+        text-align: center;
+        padding: 10px;
+        font-variant: small-caps;
+    }
+
+    #teste p {
+        padding: 5px 0px 10px 0px;
+    }
+
+    .botao {
+        background-color: white;
+        color: red;
+        border-radius: 5px;
+        padding: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .botao:hover {
+        color: black;
+        transition: color 2s;
+        
+    }
+
+    
+    
+
+#border {
+    border: 1px solid black;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to top, red, blue);
+
 }
