@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="icolor">Cor</label>
+            <input type="color" name="color" id="icolor" value="#00ff00" minlength="2" maxlength="8">
+        </p>
+
+        <p>
+            <label for="ialegria">Nivel de Alegria</label>
+            <input type="range" name="alegria" id="ialegria" min="0" max="10" value="1">
+        </p>
+
+        <p>
+            <label for="ifile"></label>
+            <input type="file" name="file" id="ifile">
+        </p>
+        
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+        </p>
+
+
+
+
+    </form>
+    
+</body>
+</html>
