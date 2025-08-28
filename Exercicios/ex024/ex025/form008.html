@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="iestado">QAUL SEU ESTADO</label>
+            <select name="estado" id="iestado">
+
+                <optgroup label="REGIão Sul">
+                    <option value="Rj">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="LO">Lodrina</option>
+                </optgroup>
+
+                <optgroup label="REGIÂO NORDESTE">
+                    <option value="PE">Pernabumco</option>
+                    <option value="PB">Paraiba</option>
+                    <option value="BA">Baia</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="itrab">Profissão</label>
+            <input type="text" name="trab" id="itrab" list="lisprof" value="Mecanico">
+            <datalist id="lisprof">
+                <option value="DEV">Desevolvendor</option>
+                <option value="ADM">Adminitração</option>
+                <option value="AL">Alinhador</option>
+                <option value="MC">Mecanico</option>
+            </datalist>
+        </p>
+
+        <p><label for="imens">MENSAGEM</label><br>
+            <textarea name="mens" id="imens"></textarea>
+        </p>
+
+
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+        </p>
+    </form>
+    
+</body>
+</html>
