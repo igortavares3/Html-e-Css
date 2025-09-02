@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Estilo para print */ 
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+#artigo::after {
+    content: "Esse artigo foi feito por Igor Tavares";
+}
