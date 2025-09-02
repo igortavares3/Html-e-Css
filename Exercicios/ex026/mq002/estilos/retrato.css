@@ -1,3 +1,12 @@
 @charset "UTF-8";
 
 /* Aparelho empe */
+
+body {
+   background-image: url(../imagens/cev-portrait.jpg);
+   background-position: center bottom;
+   
+  
+}
+
+
