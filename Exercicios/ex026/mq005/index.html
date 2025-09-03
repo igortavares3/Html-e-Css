@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css" >
     <link rel="stylesheet" href="estilos/movel.css" media="all">
 </head>
 <body>
     <header>
+
         <h1>Media Query</h1>
-        <menu>
+        <i id="burquer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opação 1</a></li>
                 <li><a href="#">Opação 2</a></li>
@@ -34,6 +37,11 @@
             </div>
         </article>
     </main>
-    
+    <script>
+        function clickMenu() {
+
+            itens.style.display = "block"
+        }
+    </script>
 </body>
 </html>
