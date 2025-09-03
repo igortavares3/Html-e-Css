@@ -40,6 +40,10 @@ main {
     padding: 30px;
 }
 
+#impressora {
+    display: none;
+}
+
 img {
     display: block;
     margin: auto;
