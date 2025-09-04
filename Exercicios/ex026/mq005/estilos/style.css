@@ -45,8 +45,8 @@ a {
 }
 
 article {
-    max-width: 400px;
-    max-width: 400px;
+    max-width: 450px;
+    max-width: 450px;
     margin: auto;
     background-color: white;
     border-radius: 10px;
@@ -74,6 +74,7 @@ article p {
         background-color: black;
         color: white;
         margin-right: -10px;
+        width: 90vw;
     
     }
 
@@ -92,6 +93,16 @@ i#burquer:hover {
     background-color: white;
     color: black;
 }    
+article {
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
 }
 
 
