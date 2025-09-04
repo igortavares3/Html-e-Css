@@ -91,7 +91,27 @@ i#burquer:hover {
     cursor: pointer;
     background-color: white;
     color: black;
+}    
 }
 
+@media screen and (orientation: landscape) {
     
-}
+    i#burquer {
+    text-align: center;
+    display: block;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    margin-right: -10px;
+    padding: 10px; }
+
+    i#burquer:hover {
+    display: block;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}    
+
+
+    
+} 
+    
