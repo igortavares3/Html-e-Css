@@ -67,7 +67,7 @@ article p {
 
 @media screen and (min-width: 320px) and (max-width:768px) {
     header li {
-        display: none;
+        display: block;
         margin-bottom: 2px;
         border: 1px solid black;
         text-align: center;
@@ -87,6 +87,7 @@ article p {
 }
 
 i#burquer:hover {
+    display: block;
     cursor: pointer;
     background-color: white;
     color: black;
