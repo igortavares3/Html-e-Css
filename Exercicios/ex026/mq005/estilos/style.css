@@ -105,15 +105,15 @@ article {
 
 }
 
-@media screen and (min-width:768px) {
-    main {
+ /*@media screen and (min-width:768px) {
+    article {
         width: 740px;
         height: 600px;
         display: block;
         margin: auto;
-    }
+    } */
     
-}
+
 
 
     
