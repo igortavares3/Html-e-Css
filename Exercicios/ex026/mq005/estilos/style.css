@@ -105,5 +105,15 @@ article {
 
 }
 
+@media screen and (min-width:768px) {
+    main {
+        width: 740px;
+        height: 600px;
+        display: block;
+        margin: auto;
+    }
+    
+}
+
 
     
