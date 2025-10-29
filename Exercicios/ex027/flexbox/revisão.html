@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Flex Box</title>
+    <style>
+        .conteiner {
+            background-color: black;
+            display: flex;
+            max-height: 400px;
+            min-height: 200px;
+
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+        }
+
+        .item {
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            font-variant: small-caps;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            
+    
+            
+            
+
+
+
+            flex: auto; /* Fica do tamanho do pai, Conteiner ´Somente video que não ficam´ */
+
+        }
+
+        .item:hover {
+            background-color: red;
+            color: white;
+        }
+        
+        #macaparana {
+            flex: auto;
+            text-decoration: none;
+            color: black;
+        }
+
+        #igor {
+            text-decoration: none;
+            color: black;
+            flex: auto;
+        }
+      
+
+        /* Configuração para o Pai (Conteiner)  
+        
+        Flex Direction: Row (Esquerda para Direita)
+        Flex Direction: Row Reverse (Direita para Esquerda)
+        Flex Direction: Column (De Cima para Baixo)
+        Flex Direction: Column Reverse (De Baixo para Cima)
+
+
+        EIXOS: Row (Eixo Principal: Main Axis (Esquerda para Direita) )
+
+        EIXOS: Row (Eixo Secundario: Cross Axis (De cima para Baixo))
+        
+        Flex Wrap: NowRap
+        */
+    </style>
+
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="macaparana"><a href="https://www.youtube.com/@IEADPEMACAPARANA" target="_blank" id="macaparana"> Exemplos de bloco A</a></div>
+        <div class="item">Exemplos de blocos B</div>
+        <div class="item">Exemplos de blocos C</div>
+        <div class="item">Exemplos de blocos D</div>
+        <div class="item">Exemplos de blocos E</div>
+        <div class="item">Exemplos de blocos F</div>
+        <div class="item">Exemplos de blocos G</div>
+
+</body>
+</html>
