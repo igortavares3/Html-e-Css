@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            background-color: lightblue;
+        }
+
+        div.conteiner {
+            display: flex;
+            background-color: red;
+            height: 100vh;
+
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        div.nome {
+            background-color: blue;
+
+            width: 50vw;
+            height:50vh;
+
+
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="nome">
+            <h1>TELA DE LOGIN</h1>
+        </div>
+    </div>
+</body>
+</html>
