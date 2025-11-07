@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+        }
+        div.conteiner{
+            display: flex;
+            background-color: white;
+            /*width: 550px;
+            height: 50px;*/
+
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        div.son {
+            background-color: yellow;
+            border: 1px solid black;
+
+            flex-basis: 250px;
+            text-align: center;
+            align-self: center;
+            
+            /*margin-left: 5px;*/
+            flex-shrink: 1;
+            flex-grow: 0;
+
+            
+
+        }
+
+        div#n2 {
+            flex-grow: 1;
+
+            /* Flex Grow: Elementos podem crescer 
+            
+            Por padrão é 0, 1 vai fazer o elemento crescer, se eu colocar 2 vai crescer o dobro...
+
+            
+            Flex Shrink: Elementos podem diminuir, o padrão é 1 dizendo quen pode diminuir, se ele colocar 0 não pode dimuir se eu colocar 2, vai diminuir duas vezes mais...  
+
+            FLEX: FLEX GROW FLEX SHRINK FLEX BASIC, essas são as ordens, e recomendaçaõo da W3C
+
+
+            */
+
+        }
+
+        div#n2 {
+            flex: 1 0 100px;
+
+
+        }
+
+        div#n3 {
+            flex: 1 1 auto; 
+
+            /* O maximo flexivel possivel, ou flex: auto */
+
+
+        }
+         
+
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="son" id="n1">A</div>
+        <div class="son" id="n2">B</div>
+        <div class="son" id="n3">C</div>
+    </div>
+    
+</body>
+</html>
