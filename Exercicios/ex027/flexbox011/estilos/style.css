@@ -18,16 +18,57 @@ body {
 div.cabeçario {
     background-color: gray;
     color: white;
-    padding: 10px
+    padding: 10px;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
 
 div.cabeçario > h1 {
     border: 1px dotted black;
+
+
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.cabeçario > nav {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
 }
 
 nav {
     border: 1px dotted black;
+    
 }
+
+div.cabeçario > nav > a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+div.cabeçario > nav > a:hover {
+    background-color: white;
+    color: black;
+
+    transition: background-color .5s;
+}
+
 
 div.corpo {
     background-color: white;
