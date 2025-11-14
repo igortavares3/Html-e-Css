@@ -30,13 +30,12 @@ div.cabeçario {
 }
 
 div.cabeçario > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 
-
-    flex-wrap: wrap;
+   
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 200px;
+    flex-basis: 300px;
 }
 
 .cabeçario > nav {
@@ -48,7 +47,7 @@ div.cabeçario > h1 {
 }
 
 nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     
 }
 
@@ -74,14 +73,14 @@ div.corpo {
     background-color: white;
     margin: 10px;
     padding: 10px;
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     border-radius: 10px;
 }
 
 div.corpo > h2 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;
 }
 
 div.corpo > p {
     border: 1px dotted black;
-}
+}*/

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+
+.cabeçario > h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.cabeçario > nav  {
+    flex-direction: column;
+    flex-wrap:nowrap;
+
+}
+
+.cabeçario > nav > a {
+    width: 93vw;
+}
