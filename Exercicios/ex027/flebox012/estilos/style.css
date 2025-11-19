@@ -21,7 +21,14 @@ p, h1, h2 {
 header, .section{
     padding: 20px;
 
+
 }
+
+
+div.section > .grupos {
+    border: 1px dashed green;
+}
+
 
 .section2 {
     padding: 20px;
@@ -29,4 +36,18 @@ header, .section{
 
 div.section{
     background-color: lightgray;
+    display: flex;
+
+    
+    flex-wrap: wrap;
 }
+
+div.midia-text {
+    display: flex;
+}
+
+div.text-midia{
+ display: flex;
+    
+}
+
